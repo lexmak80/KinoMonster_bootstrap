@@ -6,7 +6,7 @@ a:hover {
 
 .header h1 {
   letter-spacing: 15px;
-  font-size: 30px;
+  font-size: 300%;
 }
 
 .header p {
@@ -31,29 +31,32 @@ a:hover {
 }
 
 .navbar-inverse {
-  padding-bottom: 1%;
+  padding: 1%;
+  border-radius: 0;
 }
 
 @media (max-width: 767px) {
   .nav-pills > li {
     float: none;
   }
+
   .nav-pills {
     text-align: center;
   }
 
   .header h1 {
-    letter-spacing: 5px;
     font-size: 280%;
+    letter-spacing: 5px;
   }
+
   .header {
     text-align: center;
   }
 }
-/* прижать футер к низу */
+
 .clear {
   clear: both;
-  width: 63px;
+  height: 63px;
 }
 
 .wrapper {
@@ -64,16 +67,15 @@ html,
 body {
   height: 100%;
 }
-/* film-block */
 
-.film_block {
+.films_block {
   text-align: center;
 }
 
-.film_block img {
+.films_block img {
   margin-bottom: 5%;
   border-radius: 5px;
-  border: 5px solid #dad7d5;
+  border: solid 5px #dad7d5;
   width: 100%;
 }
 
@@ -85,7 +87,6 @@ body {
 .margin-8 {
   margin-top: 8%;
 }
-/* sidebar */
 
 .panel {
   border: none;
@@ -114,17 +115,15 @@ body {
   font-size: 14px;
 }
 
-.list-group-item-warning {
-  color: #8a6d3b;
-  background-color: #f9f9f9;
+.badge {
+  background-color: #000;
 }
 
-/* footer */
 footer {
-  background: #222;
   color: #666;
-  padding: 17px 0px 18px 0px;
-  border: 1px solid #000;
+  background: #222;
+  padding: 17px 0 18px 0;
+  border-top: 1px solid #000;
 }
 
 footer a {
