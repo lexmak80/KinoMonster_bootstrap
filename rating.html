@@ -48,8 +48,8 @@
                             <li> <a href="/index.html">Главная</a> </li>
                             <li> <a href="#">Фильмы</a> </li>
                             <li> <a href="#">Сериалы</a> </li>
-                            <li> <a href="/rating.html">Рейтинг фильмов</a> </li>
-                            <li class="active"> <a href="/contact.html">Контакты</a> </li>
+                            <li class="active"> <a href="/rating.html">Рейтинг фильмов</a> </li>
+                            <li> <a href="/contact.html">Контакты</a> </li>
                         </ul>
                     </div>
                 </div>
@@ -71,23 +71,43 @@
                             </div>
                         </div>
                     </form>
-                    <h2>Контакты</h2>
+                    <!-- rating -->
+                    <h2>Рейтинг фильмов</h2>
                     <hr>
-
-                    <form>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Отправте ваш отзыв о кинопортале КиноМонстр</label>
-                            <input type="text" class="form-control" placeholder="Ваше имя">
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Ваш e-mail">
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" rows="10"></textarea>
-                        </div>
-                        <button type="button" class="btn btn-lg btn-warning pull-right">отправить</button>
-                    </form>
-
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Фильмы</th>
+                                <th class="text-center">Год</th>
+                                <th class="text-center">Рейтинг</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <td class="col-lg-1 col-md-1 col-xs-2"><img class="img-responsive img-thumbnail" src="/assets/img/inter.png" alt="Интерстеллар"></td>
+                            <td class="vert-align"><a href="/show.html">Интерстеллар</a></td>
+                            <td class="text-center vert-align">2014</td>
+                            <td class="text-center vert-align"><span class="badge">8.1</span></td>
+                        </tbody>
+                        <tbody>
+                            <td class="col-lg-1 col-md-1 col-xs-2"><img class="img-responsive img-thumbnail" src="/assets/img/cloud.png" alt="Интерстеллар"></td>
+                            <td class="vert-align"><a href="">Облачный атлас</a></td>
+                            <td class="text-center vert-align">2014</td>
+                            <td class="text-center vert-align"><span class="badge">8.1</span></td>
+                        </tbody>
+                        <tbody>
+                            <td class="col-lg-1 col-md-1 col-xs-2"><img class="img-responsive img-thumbnail" src="/assets/img/matrix.png" alt="Интерстеллар"></td>
+                            <td class="vert-align"><a href="">Матрица</a></td>
+                            <td class="text-center vert-align">2014</td>
+                            <td class="text-center vert-align"><span class="badge">8.1</span></td>
+                        </tbody>
+                        <tbody>
+                            <td class="col-lg-1 col-md-1 col-xs-2"><img class="img-responsive img-thumbnail" src="/assets/img/max.png" alt="Безумный Макс"></td>
+                            <td class="vert-align"><a href="">Интерстеллар</a></td>
+                            <td class="text-center vert-align">2014</td>
+                            <td class="text-center vert-align"><span class="badge">8.1</span></td>
+                        </tbody>
+                    </table>
 
                 </div>
                 <div class="col-sm-3 col-sm-pull-9">

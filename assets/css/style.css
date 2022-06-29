@@ -131,6 +131,10 @@ body {
   margin-right: 3%;
 }
 
+.table tbody > tr > td.vert-align {
+  vertical-align: middle;
+}
+
 footer {
   color: #666;
   background: #222;
